@@ -15,9 +15,11 @@
     "test": "stencil test --spec --e2e",
     "test.watch": "stencil test --spec --e2e --watchAll"
   },
-  "dependencies": {},
+  "dependencies": {
+    "rxjs": "^6.3.3"
+  },
   "devDependencies": {
-    "@stencil/core": "~0.13.2"
+    "@stencil/core": "0.14.0-0"
   },
   "repository": {
     "type": "git",
